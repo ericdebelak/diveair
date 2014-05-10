@@ -1,0 +1,51 @@
+body
+{
+    font-family: sans-serif;
+    background: url(http://upload.wikimedia.org/wikipedia/commons/c/c7/%22Gadfly%22_in_flight_%285898474490%29.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 80%;
+    margin: 0 auto;
+}
+#loginText, #registrationText
+{
+    float: left;
+    line-height: 22px;
+}
+.error
+{
+    color:red;
+}
+nav
+{
+    height: 110px;
+    background: linear-gradient(#ffad40, #ff9200);
+}
+nav h1
+{
+    padding-top: 40px;
+    text-align: center;
+}
+nav #links
+{
+    float: right;
+}
+nav a
+{
+    display: inline-block;
+    text-decoration: none;
+    padding: 0 10px 10px 10px;
+    color: black;
+}
+section
+{
+    width: 500px;
+    margin: 0 auto;
+    background-color: rgba(192, 192, 192, 0.5);
+    padding: 15px;
+}
+section h1, h2
+{
+    color: black;
+}
+
